@@ -1,0 +1,207 @@
+body{
+    background-color: #F0EDD4;
+}
+h1{
+    color: #FFCE45;
+}
+
+a{
+    text-decoration: none;
+}
+/* Classes*/
+
+.container{
+    display: grid;
+    grid-template-columns: 5.5fr 10.5fr;
+    grid-template-rows: 5.5fr 10.5fr;
+}
+.Product{
+    position: absolute;
+        top: 5;
+        left: 5;
+        margin-top: 10px;
+        margin-left: 10px;
+
+
+}
+.spanName{
+    color: #503e0f;
+    font-size: large;
+}
+.spanNameF{
+    color: #503e0f;
+    font-size: large;
+    margin-bottom: 50%;
+    
+}
+
+.contact{
+   
+    position: absolute;
+        top: 1;
+        left: 5;
+        margin-top: 10px;
+        margin-left: 80px;
+}
+
+
+
+.logo-white{
+    position: relative;
+    margin-bottom: 40%;
+    height: 10px;
+    width:10px;
+    opacity: 0.5;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+
+.redsquarproduct{
+    height: 20px;
+    width: 20px;
+    background-color: #8C0000;
+    margin-top: 10px;
+    transition: transform 0.3s;
+    position:fixed;
+    top: 0;
+    left: 0;
+    
+}
+
+.redsquarcontact{
+    height: 20px;
+    width: 20px;
+    background-color: #8C0000;
+    margin-top: 10px;
+    transition: transform 0.3s;
+}
+.foot {
+  position: fixed;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+}
+
+
+
+
+
+.flexbox{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 10px;
+}
+
+.homediv{
+    display: grid;
+    grid-template-rows: max-content;
+}
+
+.details{
+    color: #FFCE45;
+}
+
+.nav-link{
+    margin-left: 100%;
+    margin-top: 20%;
+}
+
+    .contact-home {
+        position: absolute;
+        top: 5;
+        left: 5;
+        margin-top: 10px;
+        margin-left: 10px;
+      }
+.headingAbout{
+    text-align: center;
+   
+}
+  
+.navbarP {
+    
+    background-color: #c27005b8;
+    height: 50px;
+    width: 400px;
+    margin-left: 199%;
+    margin-top: 10%;
+    text-align: left;
+    border: solid rgb(97, 104, 120);
+    border-radius: 10px;
+
+  }
+      
+.navbar {
+    
+    background-color: #c27005b8;
+    height: 50px;
+    width: 34%;
+    margin-left:50%;
+    border: solid rgb(97, 104, 120);
+    border-radius: 10px;
+  }
+  
+  .menu-icon {
+    color: black;
+    cursor: pointer;
+    display: inline-block;
+    margin: 10px;
+  }
+  
+  .options {
+    display: none;
+  }
+  
+  .nav-link {
+    color: black;
+    text-decoration: none;
+    margin: 0 10px;
+    padding:2px;
+    font-weight: bold;
+  }
+  
+  .nav-link:hover {
+    background-color: black;
+    color: rgb(255, 255, 82);
+  }
+  
+  .show-options .options {
+    display: block;
+  }
+
+  .spanName {
+    cursor: pointer;
+  }
+  .move {
+    animation: moveUpDown 0.5s infinite alternate;
+  }
+  
+  .card img {
+    display: grid;
+    grid-template-columns: 10px;
+    grid-template-rows: 50px;
+    height: 500px;
+    margin-top: 50%;
+    border: solid silver;
+    border-radius: 10px; /* Adjust the value to control the roundness of the border */
+  }
+  
+  .card{
+    height: 50px;
+  }
+ 
+  /* ID STart Here*/
+ 
+
+  #redsquar {
+    height: 20px;
+    width: 20px;
+    background-color: #8C0000;
+    transition: transform 0.3s;
+  }
+  
+ 
+ 
+  
